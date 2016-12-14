@@ -8,25 +8,25 @@
       "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
     },
     {
-      "make": "Nissan",
-      "model": "Rogue",
-      "year": "2006",
-      "price": "8999",
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "make": "MetalGear",
+      "model": "Rex",
+      "year": "2005",
+      "price": "2078999",
+      "description": "Classified."
     },
     {
-      "make": "Nissan",
-      "model": "Rogue",
-      "year": "2006",
-      "price": "8999",
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "make": "Frame Arms",
+      "model": "Type32 Model5",
+      "year": "2014",
+      "price": "820999",
+      "description": "Classified again."
     },
     {
-      "make": "Nissan",
-      "model": "Rogue",
-      "year": "2006",
-      "price": "8999",
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "make": "Tachikoma",
+      "model": "Blue",
+      "year": "2002",
+      "price": "890699",
+      "description": "Spider bot car."
     }
   ]
 }

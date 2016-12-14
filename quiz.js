@@ -13,10 +13,11 @@ function populatePage (inventory) {
 // Load the inventory and send a callback function to be
 // invoked after the process is complete
 function event(){
-  loadInventory(populatePage);
+  // loadInventory(populatePage);
 }
 
-
+//--Use callback to call the event function when the loadInventory
+// --function is call at th beginning of the page
 function loadInventory (callback) {
   var inventoryLoader = new XMLHttpRequest();
 

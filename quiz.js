@@ -3,10 +3,11 @@ loadInventory();
 
 function populatePage (inventory) {
   var cars = JSON.parse(inventory.target.responseText)
+  console.log("cars", cars)
   // Loop over the inventory and populate the page
 
   // Now that the DOM is loaded, establish all the event listeners needed
-  activateEvents();
+  // activateEvents();
 }
 
 // Load the inventory and send a callback function to be

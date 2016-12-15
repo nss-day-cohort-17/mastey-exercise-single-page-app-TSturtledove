@@ -7,7 +7,7 @@ function populatePage (inry) {
   // Loop over the inventory and populate the page
   var carsForSale = ""
   for (var i = 0; i < inventory.cars.length; i++) {
-    carsForSale += `<div class="col-md-4">
+    carsForSale += `<div class="col-md-4 blackBor">
                       <h3>${inventory.cars[i].make}</h3>
                       <h3>${inventory.cars[i].model}</h3>
                       <p>${inventory.cars[i].year}</p>

@@ -5,7 +5,17 @@
 }
 
 
-.blackBor {
+.blackBor label{
   border: 2px solid black;
   margin: 10px;
+}
+
+.blackBor input[type="radio"]:checked + label {
+  border: 5px solid black;
+  margin: 10px;
+  background-color: #99b600;
+}
+
+input[type=radio] {
+  display: none;
 }

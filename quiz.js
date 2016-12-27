@@ -49,16 +49,19 @@ function loadInventory (callback) {
 }
 
 
-
-function changeText() {
-  var userInput = document.getElementById("userInput").value;
-  document.getElementsByClassName(".blackBor input[type="radio"]:checked + label .picked").innerHTML = userInput;
-  console.log("text")
-
-}
+//
+// function changeText() {
+//   var userInput = document.getElementById("userInput").value;
+//   document.getElementsByClassName(".blackBor input[type="radio"]:checked + label .picked").innerHTML = userInput;
+//   console.log("text")
+//
+// }
 
 
 function focusing() {
+  var blank =""
   document.getElementById("userInput").focus();
+  document.getElementById("userInput").value = blank
+
   console.log("focus")
 }

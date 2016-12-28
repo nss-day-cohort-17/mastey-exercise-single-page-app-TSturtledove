@@ -61,7 +61,7 @@ function changeText() {
       break;
     }
   }
-  console.log("test")
+  // console.log("test")
 
 }
 

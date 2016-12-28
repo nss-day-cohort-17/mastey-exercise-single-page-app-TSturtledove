@@ -8,12 +8,12 @@ function populatePage (inry) {
   var carsForSale = ""
   for (var i = 0; i < inventory.cars.length; i++) {
     carsForSale += `<div class="blackBor" onclick="focusing()">
-                      <input id="radio${[i]}" type="radio" name="card" value="all"><label for="radio${[i]}" class="col-md-3">
+                      <input id="radio${[i]}" type="radio" name="card" value="all"><label for="radio${[i]}" class="info col-md-3">
                       <h3>${inventory.cars[i].make}</h3>
                       <h3>${inventory.cars[i].model}</h3>
                       <p>${inventory.cars[i].year}</p>
                       <p>${inventory.cars[i].price}</p>
-                      <p class="picked">${inventory.cars[i].description}</p>
+                      <p id="picked${[i]}">${inventory.cars[i].description}</p>
                       </label>
                       </div>`
   }
@@ -49,13 +49,21 @@ function loadInventory (callback) {
 }
 
 
-//
-// function changeText() {
-//   var userInput = document.getElementById("userInput").value;
-//   document.getElementsByClassName(".blackBor input[type="radio"]:checked + label .picked").innerHTML = userInput;
-//   console.log("text")
-//
-// }
+function changeText() {
+  var atamoton = document.getElementsByName("card")
+  for (var t=0, length = atamoton.length; t < length; t++) {
+    if (atamoton[t].checked){
+      var userInput = document.getElementById("userInput").value;
+      // document.getElementById("test").innerHTML = userInput;
+      var targetText = document.getElementById(`picked${[t]}`);
+      // return
+      targetText.innerHTML = userInput;
+      break;
+    }
+  }
+  console.log("test")
+
+}
 
 
 function focusing() {

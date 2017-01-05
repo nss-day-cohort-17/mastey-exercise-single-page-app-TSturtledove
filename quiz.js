@@ -55,3 +55,12 @@ function focusing() {
 
   console.log("focus")
 }
+
+function activeEvents(){
+
+}
+
+var grn = "#99b600"
+function colorChange() {
+
+}

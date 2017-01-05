@@ -5,8 +5,13 @@
 }
 
 
+.blackBor {
+  border: 2px solid black;
+  margin: 10px;
+}
 
-.blackBor label{
+
+/*.blackBor label{
   border: 2px solid black;
   margin: 10px;
 }
@@ -20,3 +25,4 @@
 input[type=radio] {
   display: none;
 }
+*/

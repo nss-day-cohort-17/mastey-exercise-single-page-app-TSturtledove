@@ -6,7 +6,7 @@
 
 
 
-.blackBor label{
+.blackBor {
   border: 2px solid black;
   margin: 10px;
 }

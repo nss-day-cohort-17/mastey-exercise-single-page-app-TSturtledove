@@ -1,0 +1,22 @@
+.baseBody {
+  height: 100%;
+  width: 100%;
+  background-color: #99b3ff;
+}
+
+
+
+.blackBor {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.blackBor input[type="radio"]:checked + label {
+  border: 5px solid black;
+  margin: 10px;
+  background-color: #99b600;
+}
+
+input[type=radio] {
+  display: none;
+}
